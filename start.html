@@ -46,31 +46,31 @@
 <body>
 <div id="yourBookmarks">
 Share|share
-	Facebook					http://facebook.com
-	Twitter						http://twitter.com
-	Google+						http://plus.google.com
-	Instagram					http://instagram.com/
-	Pinterest					https://pinterest.com/
-	Reddit						http://reddit.com/
-	Tumblr						http://tumblr.com/
+	Facebook				http://facebook.com
+	Twitter					http://twitter.com
+	Google+					http://plus.google.com
+	Instagram				http://instagram.com/
+	Pinterest				https://pinterest.com/
+	Reddit					http://reddit.com/
+	Tumblr					http://tumblr.com/
 
 Cloud|cloud
-	Dropbox						http://dropbox.com
+	Dropbox					http://dropbox.com
 	Google Drive				http://drive.google.com
-	SkyDrive					https://skydrive.live.com/
-	Box							https://www.box.com/
+	SkyDrive				https://skydrive.live.com/
+	Box					https://www.box.com/
 	
 Shop|shopping-cart
-	Ebay						http://ebay.com/
-	Amazon						http://amazon.com/
+	Ebay					http://ebay.com/
+	Amazon					http://amazon.com/
 	---
 	Google Shopping				https://www.google.co.uk/shopping
 
 Web Dev|code
-	GitHub						https://github.com
-	jQuery						http://jquery.com/
-	PHP							http://php.net
-	CakePHP						http://cakephp.org/
+	GitHub					https://github.com
+	jQuery					http://jquery.com/
+	PHP					http://php.net
+	CakePHP					http://cakephp.org/
 	---
 	Twitter Bootstrap			http://twitter.github.io/bootstrap/
 	CSS3 Generator				http://css3generator.com/
@@ -169,7 +169,8 @@ Web Dev|code
 				width = width > $(this).width() ? width : $(this).width();
 			});
 			//set width of item container, #bkmks, to correct width.
-			$('#bkmks').css("width",maxLeft+width);
+			$('#bkmks').css("width",maxLeft+width+100);
+			$('#bkmks').css("left",50);
 	});
 </script>
 </body>
