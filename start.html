@@ -75,6 +75,13 @@ Web Dev|code
 	Twitter Bootstrap			http://twitter.github.io/bootstrap/
 	CSS3 Generator				http://css3generator.com/
 	Nomalize.css				http://necolas.github.io/normalize.css/
+	
+Search|search
+	Google						https://google.com
+	Yahoo						http://yahoo.com
+	DuckDuckGo					https://duckduckgo.com/
+	Wikipedia					http://wikipedia.org/
+	IMDB						http://imdb.com/
 </div>
 
 <div id="header">
@@ -131,7 +138,6 @@ Web Dev|code
 						}else{
 							f[1] = '';
 						}
-						
 						if(first==true){
 							first = false;
 							cl = '';
@@ -145,9 +151,8 @@ Web Dev|code
 			$('#bkmks').html(ul); //apply the bookmarks
 		
 		//MASONRY
-			var $container = $('#bkmks');
 			// initialize
-			$container.masonry({
+			$('#bkmks').masonry({
 				itemSelector: '.item',
 				"gutter": 100
 			});
@@ -171,6 +176,31 @@ Web Dev|code
 			//set width of item container, #bkmks, to correct width.
 			$('#bkmks').css("width",maxLeft+width+100);
 			$('#bkmks').css("left",50);
+		
+
+		/* Testing
+		var i = -1;
+		var obj = {};
+		$.each(arr,function(line,value){
+			value = $.trim(value);
+			value = value.split('\t');
+			//remove empty values in array
+				value = value.filter(function(val){
+						return val !== "" && val !== null;
+				});
+			if(value[1]){ //bookmark
+				console.log('bookmark: '+value);
+				obj[i] = {bookmark:value};
+			}else if(value[0]==="---"){ //divider
+				console.log('separator: '+value[0]);
+				obj[i] = {separator:true};
+			}else{ //title
+				console.log('title = '+value[0]);
+				i++;
+				obj[i] = {title:value[0]};
+			}
+		});
+		console.log(obj);*/
 	});
 </script>
 </body>
