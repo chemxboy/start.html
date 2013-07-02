@@ -9,3 +9,6 @@ The main aims of this project are that it is...
 * ...and that it all runs from one file: start.html
 
 I store my start.html page in my Dropbox folder and have it synced across all my browsers and computers.
+
+Usage
+---------
