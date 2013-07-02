@@ -44,6 +44,7 @@ Format:
 Folder|icon_name_from_font_awesome
 	Bookmark Name		[at least one tab]		URL
 -->
+```
 
 Example:
 ```
@@ -65,4 +66,5 @@ Cloud|cloud
 	Box					https://www.box.com/
 -->
 ```
+
 Dividers can be entered by addding a hyphen on a new line, as shown above.
