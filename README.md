@@ -12,4 +12,5 @@ I store my start.html page in my Dropbox folder and have it synced across all my
 
 Usage
 ---------
-Comments t
+No HTML knowledge is required in order to create your start.html.
+All bookmarks and icon information can be placed at the top of the file between the comments tags as shown below.
