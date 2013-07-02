@@ -65,5 +65,4 @@ Cloud|cloud
 	Box					https://www.box.com/
 -->
 ```
-
 Dividers can be entered by addding a hyphen on a new line, as shown above.
