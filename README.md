@@ -23,7 +23,7 @@ Format:
 URL		[at least one tab]		source
 -->
 ```
-I use the icons from [Google Play](https://play.google.com/store?hl=en) apps and then use [DataURL.net](http://dataurl.net/#dataurlmaker) to encode the image. This way I do not need to store local images, keeping start.html to one file.
+I use the icons from [Google Play](https://play.google.com/store?hl=en) apps and then use [DataURL.net](http://dataurl.net/#dataurlmaker) to encode the image. This way, you do not need to store any local image files, keeping start.html as one file.
 
 Example:
 
