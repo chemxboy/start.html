@@ -23,6 +23,7 @@ Format:
 URL		[at least one tab]		source
 -->
 ```
+I use the icons from [Google Play](https://play.google.com/store?hl=en) apps and then use [DataURL.net](http://dataurl.net/#dataurlmaker) to encode the image. This way I do not need to store local images, keeping start.html to one file.
 
 Example:
 
@@ -45,6 +46,10 @@ Folder|icon_name_from_font_awesome
 	Bookmark Name		[at least one tab]		URL
 -->
 ```
+
+The only externally referenced file is Font Awesome. This is an icon font.
+You can add the icons to the bookmark folders by adding a pipe followed by the icon name (without the "icon-" prefix).
+Visit the [Font Awesome](http://fortawesome.github.io/Font-Awesome/icons/) website for a list of all possible icons.
 
 Example:
 ```
