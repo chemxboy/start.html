@@ -1,5 +1,9 @@
 start.html
 =========
+Demo
+---------
+[http://flamepad.github.io/start.html/](http://flamepad.github.io/start.html/)
+
 Summary
 ---------
 start.html is your customisable home and/or new-tab page.
